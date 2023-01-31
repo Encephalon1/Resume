@@ -20,10 +20,21 @@ header {
     margin-left: 10px;
 }
 
-@media screen and (max-width: 600px) and (orientation: portrait) {
+@media screen and (max-width: 600px) {
     .all {
         display: flex;
         flex-direction: column;
-        justify-content: left;
+        justify-content: left;     
+    }
+    #photo {
+        width: 200px;
+        height: 250px;
+        border-radius: 100px;
+    }
+    .my_title {
+        margin-top: 0px;
+    }
+    header {
+        flex-direction: column;
     }
 }    
