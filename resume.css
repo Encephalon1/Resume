@@ -1,0 +1,29 @@
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+#photo {
+    width: 200px;
+    height: 250px;
+    float: left;
+    border-radius: 100px;
+}
+
+header {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.my_title {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .all {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+}    
